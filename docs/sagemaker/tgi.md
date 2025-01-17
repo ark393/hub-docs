@@ -1,14 +1,5 @@
-# Available DLCs on Google Cloud
+# Text Generation Inference (TGI) Images
 
-Below you can find a listing of all the Deep Learning Containers (DLCs) available on Google Cloud.
+[TGI](https://huggingface.co/docs/text-generation-inference/en/index) is a toolkit for deploying and serving Large Language Models (LLMs). TGI enables high-performance text generation for the most popular open-source LLMs, including Llama, Falcon, StarCoder, BLOOM, GPT-NeoX, and T5.
 
-<Tip>
-
-The listing below only contains the latest version of each one of the Hugging Face DLCs, the full listing of the available published containers in Google Cloud can be found either in the [Google Cloud Deep Learning Containers Documentation](https://cloud.google.com/deep-learning-containers/docs/choosing-container#hugging-face), in the [Google Cloud Artifact Registry](https://console.cloud.google.com/artifacts/docker/deeplearning-platform-release/us/gcr.io) or via the `gcloud container images list --repository="us-docker.pkg.dev/deeplearning-platform-release/gcr.io" | grep "huggingface-"` command.
-
-</Tip>
-
-## Text Generation Inference (TGI)
-
-```
-```
+Below, you can find a list of the latest available images for TGI for use on AWS SageMaker.
